@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import One from "./Components/One"
-// import Clock from "./Components/CLock";
+import Clock from "./Components/Clock";
 
 function GetTime(props) { 
   return (
@@ -14,9 +14,10 @@ function GetTime(props) {
 function App(){
   return (
     <div> 
-     <div> Good </div>
+      
+      <Clock />
       <input type="text" />
-      <GetTime name="Arman" lastName="Davtyan" />
+      {/* <GetTime name="Arman" lastName="Davtyan" /> */}
     </div>
   )
 
