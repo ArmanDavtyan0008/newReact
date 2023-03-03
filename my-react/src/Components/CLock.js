@@ -14,7 +14,6 @@ class Clock extends React.Component {
             1000
         );
         console.log("mounted")
-       
     }
 
     componentWillUnmount() {
